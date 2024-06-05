@@ -3,7 +3,7 @@
 <div class="py-16">
     <div class="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
         <div class="hidden lg:block lg:w-1/2 bg-cover"
-            style="background-image:url('https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80')">
+            style="background-image:url('https://lanuevaserenidad.com/wp-content/uploads/2023/08/papel-de-la-farmacia-es-clave-en-la-prevencion-de-enfermedades-1140x760.jpg')">
         </div>
         <div class="w-full p-8 lg:w-1/2">
             <h2 class="text-2xl font-semibold text-gray-700 text-center">PRIVILAGE CARE</h2>
@@ -45,7 +45,7 @@
             </div>
             <div class="mt-8">
                 <RouterLink to="/login">
-                <button class="bg-gray-700 text-white font-bold py-2 px-4 w-full rounded hover:bg-gray-600">Login</button>
+                <button class="bg-gray-700 text-white font-bold py-2 px-4 w-full rounded hover:bg-gray-600">Iniciar Sesion</button>
                 </RouterLink>
             </div>
             <div class="mt-8">
