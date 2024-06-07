@@ -2,6 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import RegisterUser from '@/components/registerUser.vue'
 import LoginView from '@/components/login.vue'
 import DashboardView from '@/components/dashboard.vue'
+import PersonasVIew from '@/components/personas.vue'
+import UsuariosView from '@/components/usuarios.vue'
+
 
 
 const router = createRouter({
@@ -20,7 +23,10 @@ const router = createRouter({
     {
       path: '/dashboard',
       name: 'dashboard',
-      component: DashboardView 
+      component: DashboardView ,
+      children:[
+        {path:'/personas',name:'personas',component:PersonasVIew}
+      ]
     }
   ]
 })
