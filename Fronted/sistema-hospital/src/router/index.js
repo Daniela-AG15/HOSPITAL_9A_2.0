@@ -3,7 +3,8 @@ import RegisterUser from '@/components/registerUser.vue'
 import LoginView from '@/components/login.vue'
 import DashboardView from '@/components/dashboard.vue'
 import PersonasVIew from '@/components/personas.vue'
-import UsuariosView from '@/components/usuarios.vue'
+// import UsuariosView from '@/components/usuarios.vue'
+import ConsumiblesView from '@/components/consumibles.vue'
 
 
 
@@ -25,7 +26,8 @@ const router = createRouter({
       name: 'dashboard',
       component: DashboardView ,
       children:[
-        {path:'/personas',name:'personas',component:PersonasVIew}
+        {path:'/personas',name:'personas',component:PersonasVIew},
+        {path:'/consumibles',name:'consumibles',component:ConsumiblesView}
       ]
     }
   ]
